@@ -5,6 +5,6 @@ text = input("masukan text: ")
 bahasa = input("terjemahkan ke bahasa: ")
 hasil = translator.translate(text, dest = bahasa)
 
-print("dari",LANGUAGES[hasil.src],":".text)
+print("dari",LANGUAGES[hasil.src],":",text)
 print("ke",LANGUAGES[hasil.dest],":",hasil.text)
-print("hasil",hasil.pronuncitation)
+print("hasil",hasil.pronunciation)
